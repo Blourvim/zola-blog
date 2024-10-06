@@ -1,9 +1,9 @@
 ###
-base_url = "https://halve-z.netlify.app"
-title = "Halve-Z Zola theme"
-description = "Two-column retro theme for Zola"
+base_url = "localhost"
+title = "Blourvim's blog"
+description = "my blog"
 default_language = "en"
-author = "charlesrocket"
+author = "blourvim"
 theme = "halve-z"
 
 compile_sass = true
@@ -52,16 +52,18 @@ tags = false
 subtitle = false
 
 [extra.home]
-title = "Halve-Z"
-subtitle = "Zola theme"
-glitch = false
-logo = { enabled = false, height = "100", width = "100" }
+title = "Blourvim"
+subtitle = "Mert Yıldız"
+glitch = true  
+logo = { enabled = true, height = "100", width = "100" }
 footer = true
 
 [extra.images]
-home = "c1tyh4ll.png" #https://failsafe.monster/c1tyh4ll.png
-post_list = "bk-prk.png" #https://failsafe.monster/bk-prk.jpg
-default_post = "bk-prk.png" #https://failsafe.monster/bk-prk.jpg
+home = "Wartime_photo_of_Colossus_10.png" 
+post_list= "Wartime_photo_of_Colossus_10.png" 
+default_post= "Wartime_photo_of_Colossus_10.png"
+
+
 categories = [
     { name = "media", image = "https://raw.githubusercontent.com/bearcott/8bit-art/master/cities/urban.gif" },
 ]
@@ -73,51 +75,51 @@ links = [
     { name = "Code", url = "@/pages/projects.md" },
 ]
 
-[extra.footer]
-enabled = true
-author = true
-copyright = true
-hash = true
-stack = true
-links = [
-    { name = "posts", url = "@/posts/_index.md" },
-]
+# [extra.footer]
+# enabled = true
+# author = true
+# copyright = true
+# hash = true
+# stack = true
+# links = [
+#     { name = "posts", url = "@/posts/_index.md" },
+# ]
 
 [extra.social]
-email = "user_email"
-mastodon = "server/@user_name"
-twitter = "user_name"
-facebook = "user_name"
-codeberg = "username"
-github = "user_name"
-gitlab = "user_name"
-bitbucket = "user_name"
-stackoverflow = "12345/user_name"
-linkedin = "user_name"
-instagram = "user_name"
-lastfm = "user_name"
-twitch = "user_name"
-reddit = "user_name"
+email = "blourvim@gmail.com"
+# mastodon = "server/@user_name"
+# twitter = "user_name"
+# facebook = "user_name"
+# codeberg = "username"
+github = "blourvim"
+# gitlab = "user_name"
+# bitbucket = "user_name"
+stackoverflow = "27641876/blourvim"
+linkedin = "mert-y-2457a020b"
+# instagram = "user_name"
+# lastfm = "user_name"
+# twitch = "user_name"
+# reddit = "user_name"
 #flickr = "user_name"
-keybase = "user_name"
-hackernews = "user_name"
+# keybase = "user_name"
+# hackernews = "user_name"
 
-[extra.comments]
-system = "none"
+# [extra.comments]
+# system = "none"
 
-[extra.comments.cactus]
-site = "site_name"
-page_size = 10
-guest_posting = true
-update_interval = 0
+# [extra.comments.cactus]
+# site = "site_name"
+# page_size = 10
+# guest_posting = true
+# update_interval = 0
 
-[extra.comments.giscus]
-repo = "user_name/repo"
-repo_id = ""
-category = "Comments"
-category_id = ""
-mapping = "pathname"
-strict = "1"
-reactions = "1"
-lang = "en"
+# [extra.comments.giscus]
+# repo = "user_name/repo"
+# repo_id = ""
+# category = "Comments"
+# category_id = ""
+# mapping = "pathname"
+# strict = "1"
+# reactions = "1"
+# lang = "en"
 
