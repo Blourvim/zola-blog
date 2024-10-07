@@ -41,7 +41,9 @@ anchors = "safe"
 
 [extra]
 locale = "en_US"
-logo = "icon-192x192.png"
+# logo = "icon-192x192.png"
+
+# logo = "colossus_10.png"
 manifest = "manifest.json"
 read_time = true
 toc = true
@@ -54,14 +56,15 @@ subtitle = false
 [extra.home]
 title = "Blourvim"
 subtitle = "Mert Yıldız"
-glitch = true  
-logo = { enabled = true, height = "100", width = "100" }
-footer = true
+glitch = false
+logo = { enabled = false, height = "100", width = "100" }
+footer = true 
 
 [extra.images]
-home = "Wartime_photo_of_Colossus_10.png" 
-post_list= "Wartime_photo_of_Colossus_10.png" 
-default_post= "Wartime_photo_of_Colossus_10.png"
+home = "colossus_10.png" 
+home_author = " Good, Jack; Michie, Donald; Timms, Geoffrey (1945), General Report on Tunny: With Emphasis on Statistical Methods, UK Public Record Office HW 25/4 and HW 25/5" 
+post_list= "colossus_10.png" 
+default_post= "colossus_10.png" 
 
 
 categories = [
