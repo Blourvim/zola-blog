@@ -44,7 +44,6 @@ anchors = "safe"
 locale = "en_US"
 # logo = "icon-192x192.png"
 
-# logo = "colossus_10.png"
 manifest = "manifest.json"
 read_time = true
 toc = true
