@@ -9,4 +9,3 @@ draft = false
 
 {{ project(link="https://github.com/Blourvim/gui-speed-reader") }}
 
-{{ project(link="https://github.com/Blourvim/gui-speed-reader") }}
