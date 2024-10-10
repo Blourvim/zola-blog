@@ -1,3 +1,6 @@
 [submodule "themes/halve-z"]
 	path = themes/halve-z
-	url = https://github.com/Blourvim/halve-z.git
+  url = git@github.com:Blourvim/halve-z.git
+[submodule "deploy"]
+	path = deploy
+	url = git@github.com:Blourvim/blourvim.github.io.git
